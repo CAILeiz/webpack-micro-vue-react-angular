@@ -1,0 +1,23 @@
+{
+  "name": "webpack-micro-vue-react-angular",
+  "version": "1.0.0",
+  "description": "使用 webpack5 创建一个微应用，其中技术栈设计 vue、react、angular、typescript、原生",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "csv-loader": "^3.0.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
