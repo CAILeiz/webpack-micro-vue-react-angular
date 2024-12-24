@@ -4,7 +4,10 @@
   "description": "使用 webpack5 创建一个微应用，其中技术栈设计 vue、react、angular、typescript、原生",
   "private": true,
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "server": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -12,9 +15,13 @@
   "devDependencies": {
     "css-loader": "^7.1.2",
     "csv-loader": "^3.0.5",
+    "express": "^4.21.2",
+    "html-webpack-plugin": "^5.6.3",
     "style-loader": "^4.0.0",
     "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4",
+    "webpack-dev-middleware": "^7.4.2",
+    "webpack-dev-server": "^5.2.0",
     "xml-loader": "^1.2.1"
   },
   "dependencies": {
